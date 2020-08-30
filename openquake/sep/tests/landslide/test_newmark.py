@@ -31,14 +31,7 @@ class jibson_landslide_test(unittest.TestCase):
     def test_newmark_critical_accel(self):
         ca = newmark_critical_accel(self.fs, self.slopes)
         ca_ = np.array(
-            [
-                1.16853211,
-                1.11533996,
-                0.98539093,
-                0.68736863,
-                0.17927676,
-                0.0,
-            ]
+            [11.4633  , 10.941485,  9.666685,  6.743086,  1.758705,  0.]
         )
         np.testing.assert_allclose(ca, ca_)
 
