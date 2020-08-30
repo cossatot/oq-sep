@@ -1,0 +1,5 @@
+Rtree
+geopandas
+
+# GEM Mirror
+https://wheelhouse.openquake.org/v3/linux/py38/GDAL-3.0.4-cp38-cp38-manylinux2014_x86_64.whl
